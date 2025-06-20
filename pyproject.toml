@@ -1,5 +1,5 @@
 [project]
-name = "rerun-loader-python-example-urdf"
+name = "rerun-loader-urdf"
 version = "0.1.1"
 description = "An example data-loader plugin that lets you view URDF files in Rerun"
 readme = "README.md"
@@ -18,7 +18,7 @@ dependencies = [
 ]
 
 [project.scripts]
-rerun-loader-urdf = "rerun_loader_python_example_urdf:main"
+rerun-loader-urdf = "rerun_loader_urdf:main"
 
 
 [build-system]
